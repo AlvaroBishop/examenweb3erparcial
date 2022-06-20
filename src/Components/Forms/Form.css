@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #97fdc1;
+}
+
+.form {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    padding: 1rem;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 1rem;
+    
+}
+
+label {
+    display: block;
+    padding: 1rem;
+}
+
+input.error {
+    border-color: red;
+}
+
+.errorMessage {
+    color: red;
+    padding: 0;
+}
+
+button {
+    display: block;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #97fdc1;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #c8ffdf;
+}
+
+.popup-content {
+   background-color: rgb(255, 255, 255) !important;
+   padding: 0 !important;
+   border: 0 !important;
+}
+
+.modal {
+    font-size: 12px;
+}
+
+.modal > .header {
+    width: 100%;
+    height: 4rem;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(105, 245, 168);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 2rem;
+    color: black;
+}
+.modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    color: black;
+}
+
+.content h1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content span {
+    align-self: flex-end;
+    padding-right: 1rem;
+}
+.modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+}
+.modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.button {
+    background-color: rgb(105, 245, 168);
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.button:hover{
+    background-color: rgba(105, 245, 168, .7);
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+}

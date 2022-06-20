@@ -1,0 +1,13 @@
+.CV {
+    color: white !;
+    background-color: black;
+    height: 100vh;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.p {
+    color: white;
+}

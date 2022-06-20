@@ -1,0 +1,64 @@
+.Portafolio{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 12rem;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #97fdc1;
+    margin: 0;
+}
+
+
+
+.cards {
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 4rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 18.6rem;
+    background-color: beige;
+}
+
+.card img {
+    height: 50%;
+}
+
+h5 {
+    margin: 0;
+    padding: .2rem;
+    color: black;
+}
+
+p {
+    padding: 0 .3rem;
+    color: black;
+
+}
+
+.card-link {
+    margin: 0 1rem;
+    text-decoration: none;
+    background-color: grey;
+    width: 4rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.card-link:hover {
+    background-color: rgba(128, 128, 128, 0.7); 
+}
